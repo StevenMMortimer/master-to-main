@@ -1,4 +1,4 @@
-# master-to-main<img src="img/master-to-main.png" width="120px" align="right" />
+# master-to-main<img src="img/master-to-main.png" width="300px" align="right" />
 A repo to show how to move the default branch from 'master' to 'main' and remove the 'master' branch
 
 The following is a simple 5-step process to take a step forward in removing 
@@ -34,7 +34,7 @@ git symbolic-ref refs/remotes/origin/HEAD refs/remotes/origin/main
 
 # Step 4
 # change the default branch on GitHub to main
-# Reference: https://docs.github.com/en/github/administering-a-repository/setting-the-default-branch
+# https://docs.github.com/en/github/administering-a-repository/setting-the-default-branch
 
 # Step 5
 # delete the master branch on the remote
